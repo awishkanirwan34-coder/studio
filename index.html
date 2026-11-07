@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Studio Dedunu – Professional graphic design and web development studio. Your Vision, Our Creativity.">
+    <title>STUDIO DEDUNU | Your Vision, Our Creativity</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ============ PRELOADER ============ -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-logo">
+            <span class="preloader-icon"><i class="fa-solid fa-pen-nib"></i></span>
+            <span class="preloader-text">STUDIO DEDUNU</span>
+        </div>
+        <div class="preloader-bar"><span></span></div>
+    </div>
+
+    <!-- ============ SCROLL PROGRESS ============ -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- ============ NAVIGATION ============ -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-pen-nib"></i></span>
+                <span class="logo-text">STUDIO <span class="logo-accent">DEDUNU</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#process" class="nav-link">Our Process</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary nav-quote">Get a Quote <i class="fa-solid fa-arrow-right"></i></a>
+            </nav>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge reveal">
+                    <span class="badge-dot"></span> Creative Design &amp; Web Studio
+                </div>
+                <h1 class="hero-title">
+                    <span class="line">WE TURN</span>
+                    <span class="line gradient-text">CREATIVE IDEAS</span>
+                    <span class="line">INTO AMAZING <span class="typewriter" id="typewriter">DESIGNS.</span></span>
+                </h1>
+                <p class="hero-text reveal">
+                    Welcome to Studio Dedunu. We bring your ideas to life through creative
+                    graphic design, powerful branding, and modern website development.
+                </p>
+                <div class="hero-buttons reveal">
+                    <a href="#portfolio" class="btn btn-primary btn-lg">Explore Our Work <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline btn-lg"><i class="fa-solid fa-paper-plane"></i> Let's Talk</a>
+                </div>
+                <div class="hero-stats reveal">
+                    <div class="stat"><span class="stat-num" data-count="250">0</span><span class="stat-plus">+</span><span class="stat-label">Projects Done</span></div>
+                    <div class="stat"><span class="stat-num" data-count="120">0</span><span class="stat-plus">+</span><span class="stat-label">Happy Clients</span></div>
+                    <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span><span class="stat-label">Years Experience</span></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="floating-card card-mockup">
+                    <div class="browser-dots"><span></span><span></span><span></span></div>
+                    <div class="mockup-body">
+                        <div class="mockup-sidebar"></div>
+                        <div class="mockup-main">
+                            <div class="mockup-line w80"></div>
+                            <div class="mockup-line w60"></div>
+                            <div class="mockup-blocks">
+                                <div></div><div></div><div></div>
+                            </div>
+                            <div class="mockup-line w40"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-design">
+                    <i class="fa-solid fa-palette"></i>
+                    <div>
+                        <strong>Graphic Design</strong>
+                        <small>Branding &amp; Print</small>
+                    </div>
+                </div>
+                <div class="floating-card card-code">
+                    <i class="fa-solid fa-code"></i>
+                    <div>
+                        <strong>Web Development</strong>
+                        <small>Modern &amp; Responsive</small>
+                    </div>
+                </div>
+                <div class="floating-card card-rating">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <small>Rated 5.0 by clients</small>
+                </div>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-down"><span class="mouse"><span class="wheel"></span></span> Scroll Down</a>
+    </section>
+
+    <!-- ============ ABOUT SECTION ============ -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">Creativity <span class="gradient-text">Meets Technology.</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-visual reveal">
+                    <div class="about-img-wrap">
+                        <img src="https://picsum.photos/seed/dedunu-studio/600/520" alt="Studio Dedunu creative workspace">
+                        <div class="about-badge">
+                            <span class="about-badge-num">5+</span>
+                            <span>Years of Creative Excellence</span>
+                        </div>
+                    </div>
+                    <div class="about-shape"></div>
+                </div>
+                <div class="about-content reveal">
+                    <p class="about-lead">
+                        Studio Dedunu is a creative graphic design and web development studio
+                        dedicated to transforming ideas into visually powerful digital experiences.
+                        We combine creativity, modern technology, and professional design to help
+                        businesses stand out.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                            <div>
+                                <h4>Creative Thinking</h4>
+                                <p>Fresh, original concepts tailored to your brand identity and goals.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+                            <div>
+                                <h4>Professional Quality</h4>
+                                <p>Pixel-perfect design and clean code, delivered to the highest standard.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon"><i class="fa-solid fa-microchip"></i></div>
+                            <div>
+                                <h4>Modern Technology</h4>
+                                <p>Latest tools and frameworks for fast, secure, future-ready results.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon"><i class="fa-solid fa-heart"></i></div>
+                            <div>
+                                <h4>Customer Satisfaction</h4>
+                                <p>Collaborative process with revisions until you love the final result.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Work With Us <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVICES SECTION ============ -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Our <span class="gradient-text">Services.</span></h2>
+                <p class="section-sub">From eye-catching graphics to powerful websites — everything your brand needs, under one roof.</p>
+            </div>
+
+            <!-- Graphic Design -->
+            <h3 class="service-group-title reveal"><i class="fa-solid fa-pen-ruler"></i> Graphic Design</h3>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-fingerprint"></i></div>
+                    <h4>Logo Design &amp; Branding</h4>
+                    <p>Memorable logos and complete brand identities that tell your story at a glance.</p>
+                    <span class="service-num">01</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-panorama"></i></div>
+                    <h4>Banner Design</h4>
+                    <p>Striking web and print banners designed to grab attention and drive action.</p>
+                    <span class="service-num">02</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+                    <h4>Poster Design</h4>
+                    <p>Bold, creative posters for events, promotions, and campaigns of any size.</p>
+                    <span class="service-num">03</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-newspaper"></i></div>
+                    <h4>Flyer &amp; Brochure Design</h4>
+                    <p>Professional flyers and brochures that communicate your message clearly.</p>
+                    <span class="service-num">04</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-id-card"></i></div>
+                    <h4>Business Card Design</h4>
+                    <p>Sleek, modern business cards that leave a lasting first impression.</p>
+                    <span class="service-num">05</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-share-nodes"></i></div>
+                    <h4>Social Media Post Design</h4>
+                    <p>Scroll-stopping social media graphics that grow engagement and reach.</p>
+                    <span class="service-num">06</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-rectangle-ad"></i></div>
+                    <h4>Product Advertising Design</h4>
+                    <p>Compelling ad visuals that showcase your products and boost sales.</p>
+                    <span class="service-num">07</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    <h4>Invitation Card Design</h4>
+                    <p>Elegant invitations for weddings, events, and special occasions.</p>
+                    <span class="service-num">08</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h4>Event &amp; Promotional Designs</h4>
+                    <p>Complete design kits for events, launches, and promotional campaigns.</p>
+                    <span class="service-num">09</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-print"></i></div>
+                    <h4>Print Media Design</h4>
+                    <p>Print-ready designs with perfect color, bleed, and resolution every time.</p>
+                    <span class="service-num">10</span>
+                </div>
+            </div>
+
+            <!-- Web Development -->
+            <h3 class="service-group-title reveal"><i class="fa-solid fa-laptop-code"></i> Web Development</h3>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-briefcase"></i></div>
+                    <h4>Business Website Development</h4>
+                    <p>Professional websites that build trust and convert visitors into customers.</p>
+                    <span class="service-num">01</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h4>Portfolio Website Development</h4>
+                    <p>Beautiful personal portfolios that showcase your work in the best light.</p>
+                    <span class="service-num">02</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <h4>E-commerce Website Development</h4>
+                    <p>Secure, fast online stores engineered for smooth shopping experiences.</p>
+                    <span class="service-num">03</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+                    <h4>Landing Page Design</h4>
+                    <p>High-converting landing pages focused on a single, clear goal.</p>
+                    <span class="service-num">04</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                    <h4>Responsive Website Design</h4>
+                    <p>Flawless experiences on every device — phone, tablet, and desktop.</p>
+                    <span class="service-num">05</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+                    <h4>UI/UX Design</h4>
+                    <p>Intuitive, beautiful interfaces designed around real user behavior.</p>
+                    <span class="service-num">06</span>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h4>Website Maintenance</h4>
+                    <p>Ongoing updates, backups, and security so your site always performs.</p>
+                    <span class="service-num">07</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PORTFOLIO SECTION ============ -->
+    <section class="section portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Our Creative <span class="gradient-text">Works.</span></h2>
+                <p class="section-sub">A selection of projects we're proud of. Replace these samples with your own work anytime.</p>
+            </div>
+
+            <div class="filter-bar reveal">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="logo">Logo Design</button>
+                <button class="filter-btn" data-filter="banner">Banner Design</button>
+                <button class="filter-btn" data-filter="poster">Poster Design</button>
+                <button class="filter-btn" data-filter="social">Social Media Design</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- items injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section why-us" id="why">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Why Us</span>
+                <h2 class="section-title">Why <span class="gradient-text">Studio Dedunu?</span></h2>
+                <p class="section-sub">More than a service provider — a creative partner invested in your success.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h4>Original &amp; Creative Designs</h4>
+                    <p>Every project is crafted from scratch — no templates, no shortcuts, no clichés.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h4>High-Quality Work</h4>
+                    <p>Meticulous attention to detail in every pixel, line of code, and deliverable.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fa-solid fa-wallet"></i></div>
+                    <h4>Affordable Solutions</h4>
+                    <p>Premium-quality design at prices that make sense for growing businesses.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h4>Modern Design Trends</h4>
+                    <p>We stay ahead of the curve so your brand always looks current and fresh.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <h4>Fast Delivery</h4>
+                    <p>Efficient workflows and clear timelines — quality work, right on schedule.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h4>Friendly Customer Support</h4>
+                    <p>Clear communication, quick responses, and support long after launch day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WORK PROCESS ============ -->
+    <section class="section process" id="process">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">How We Work</span>
+                <h2 class="section-title">Our Work <span class="gradient-text">Process.</span></h2>
+                <p class="section-sub">A simple, transparent journey from first idea to final delivery.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"><span class="timeline-progress" id="timelineProgress"></span></div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><span>01</span></div>
+                    <div class="timeline-card">
+                        <div class="timeline-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <h4>Discover Your Idea</h4>
+                        <p>We listen carefully to your vision, goals, and audience to fully understand the project.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><span>02</span></div>
+                    <div class="timeline-card">
+                        <div class="timeline-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                        <h4>Creative Planning</h4>
+                        <p>We research, sketch, and map out a clear creative direction and project roadmap.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><span>03</span></div>
+                    <div class="timeline-card">
+                        <div class="timeline-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                        <h4>Design &amp; Development</h4>
+                        <p>Our team brings the plan to life with polished design and clean, modern development.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><span>04</span></div>
+                    <div class="timeline-card">
+                        <div class="timeline-icon"><i class="fa-solid fa-circle-check"></i></div>
+                        <h4>Review &amp; Revisions</h4>
+                        <p>We refine together based on your feedback, then deliver the final product — on time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Clients Say.</span></h2>
+            </div>
+            <div class="testi-slider reveal" id="testiSlider">
+                <div class="testi-track" id="testiTrack">
+                    <div class="testi-card">
+                        <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>"Studio Dedunu completely transformed our brand. The new logo and website brought us more customers within the first month. Truly professional work!"</p>
+                        <div class="testi-author">
+                            <img src="https://picsum.photos/seed/client-amara/100/100" alt="Amara Perera">
+                            <div><strong>Amara Perera</strong><small>Founder, Bloom Boutique</small></div>
+                        </div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>"Fast, creative, and incredibly easy to work with. Our social media engagement doubled after they redesigned our posts. Highly recommended!"</p>
+                        <div class="testi-author">
+                            <img src="https://picsum.photos/seed/client-dinesh/100/100" alt="Dinesh Fernando">
+                            <div><strong>Dinesh Fernando</strong><small>Marketing Manager, Ceylon Eats</small></div>
+                        </div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>"They built our e-commerce store from scratch — beautiful design, smooth checkout, zero downtime. The whole process was seamless from start to finish."</p>
+                        <div class="testi-author">
+                            <img src="https://picsum.photos/seed/client-niluka/100/100" alt="Niluka Jayasinghe">
+                            <div><strong>Niluka Jayasinghe</strong><small>Owner, Lush Crafts</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-nav">
+                    <button class="testi-btn" id="testiPrev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+                    <div class="testi-dots" id="testiDots"></div>
+                    <button class="testi-btn" id="testiNext" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-box reveal">
+                <div class="cta-glow"></div>
+                <h2>Have a project in mind?<br><span class="gradient-text">Let's create something amazing together.</span></h2>
+                <a href="#contact" class="btn btn-light btn-lg">Get a Free Quote <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT SECTION ============ -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Let's Start Your <span class="gradient-text">Project.</span></h2>
+                <p class="section-sub">Tell us about your idea — we'll get back to you within 24 hours.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div><h4>Our Studio</h4><p>Colombo, Sri Lanka</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div><h4>Email Us</h4><p>hello@studiodedunu.com</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div><h4>Call Us</h4><p>+94 77 123 4567</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div><h4>Working Hours</h4><p>Mon – Sat: 9.00 AM – 6.00 PM</p></div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder=" " required>
+                        <label for="subject">Project Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select a service</option>
+                            <option>Logo Design &amp; Branding</option>
+                            <option>Graphic Design</option>
+                            <option>Website Development</option>
+                            <option>E-commerce Website</option>
+                            <option>Social Media Design</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Tell us about your project</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitBtn">
+                        Send Message <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon"><i class="fa-solid fa-pen-nib"></i></span>
+                        <span class="logo-text">STUDIO <span class="logo-accent">DEDUNU</span></span>
+                    </a>
+                    <p>Your Vision, Our Creativity. A professional graphic design and web development studio helping brands shine.</p>
+                    <div class="contact-socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Logo &amp; Branding</a></li>
+                        <li><a href="#services">Graphic Design</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Social Media Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Get design tips and project updates in your inbox.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> STUDIO DEDUNU. All Rights Reserved.</p>
+                <p>Designed &amp; Developed with <i class="fa-solid fa-heart"></i> by Studio Dedunu</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ BACK TO TOP ============ -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- ============ LIGHTBOX ============ -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-arrow prev" id="lightboxPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-caption">
+                <h4 id="lightboxTitle"></h4>
+                <p id="lightboxDesc"></p>
+            </div>
+        </div>
+        <button class="lightbox-arrow next" id="lightboxNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
